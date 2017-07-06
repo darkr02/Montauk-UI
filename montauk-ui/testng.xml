@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.montauk.testcases.ClusterDetailPageTabNavigation"/>
+      <class name="com.montauk.testcases.RunningJobsinMonitorTab"/>
+      <class name="com.montauk.testcases.NodeDetailsInSystemTab"/>
+      <class name="com.montauk.testcases.AllJobsInSystemTab"/>
+      <class name="com.montauk.testcases.RolesForNodeInSystemTab"/>
+      <class name="com.montauk.testcases.DecommisionAndStopNodeInSystemTab"/>
+      <class name="com.montauk.testcases.NodeCardsInSystemTab"/>
+      <class name="com.montauk.testcases.FilterNodesUsingSearchInSystemTab"/>
+      <class name="com.montauk.login.Logout"/>
+      <class name="com.montauk.testcases.StartStopRolesForNodeInSystemTab"/>
+      <class name="com.montauk.testcases.BreadcrumbsNavigation"/>
+      <class name="com.montauk.testcases.ClusterDetailsInSystemTab"/>
+      <class name="com.montauk.login.LoginTest"/>
+      <class name="com.montauk.testcases.AlertsInMonitorTab"/>
+      <class name="com.montauk.testcases.ClustersInMonitorTab"/>
+      <class name="com.montauk.testcases.RestApiCall"/>
+      <class name="com.montauk.testcases.NavigateFromClusterCardsMonitorTabToNodeCards"/>
+      <class name="com.montauk.testcases.JobInfoInActivityTab"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

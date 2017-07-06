@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestSuite" verbose="1" >
+	<listeners>
+        <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+    </listeners>
+  <test name="ChromeTest">
+  	<parameter name="browser" value="Chrome" />
+    <classes>
+       <class name="ca.montauk.login.LoginTest"/>
+       <class name="ca.montauk.testcases.AlertsInMonitorTab"/>
+       <class name="ca.montauk.login.Logout"/>
+    </classes>
+  </test>
+ </suite>
